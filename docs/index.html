@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="description" content="Dolphintwo\'s docsify'">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <link rel="stylesheet" href="lib/themes/vue.css">
+    <link rel="stylesheet" href="lib/themes/buble.css">
 </head>
 <!-- <nav>
     <a href="#/">En</a>
@@ -25,9 +25,16 @@
         subMaxLevel: 2,
         auto2top: true,
         homepage: 'README.md',
+        autoHeader: true, //自动将sidebamd文件内容添加为标题
+        executeScript: true, //页面运行执行脚本
+        mergeNavbar: true, //小屏设备下合并导航栏到侧边栏
         repo: 'https://github.com/dolphintwo/',
         loadNavbar: true, //使用导航栏，配置文件为_navbar.md
-        coverpage: true //使用封面，配置文件为_coverpage.md
+        coverpage: true, //使用封面，配置文件为_coverpage.md
+        nameLink: {
+            '/en/': '/en/',
+            '/': '/'
+        }
     }
 </script>
 <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
