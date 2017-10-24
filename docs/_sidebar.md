@@ -1,2 +1,6 @@
 - [page1](page1/index.md)
     - [index1](page1/doc.md)
+    - [index2](page1/doc2.md)
+- [page2](page2/index.md)
+    - [index1](page2/doc.md)
+    - [index2](page2/doc2.md)
