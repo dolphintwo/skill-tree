@@ -19,7 +19,7 @@
 </body>
 <script>
     window.$docsify = {
-        name: 'DolphinTwo\'s Docsify',
+        name: 'DolphinTwo\'s Docsify<br>技术文档分享',
         loadSidebar: true, //使用目录，配置文件为_sidebar.md
         formatUpdated: '{YYYY}-{MM}-{DD} {HH}:{mm}',
         subMaxLevel: 2,
@@ -29,14 +29,48 @@
         executeScript: true, //页面运行执行脚本
         mergeNavbar: true, //小屏设备下合并导航栏到侧边栏
         repo: 'https://github.com/dolphintwo/',
-        loadNavbar: true, //使用导航栏，配置文件为_navbar.md
+        loadNavbar: false, //使用导航栏，配置文件为_navbar.md
         coverpage: true, //使用封面，配置文件为_coverpage.md
+        search: 'auto',
         nameLink: {
             '/en/': '/en/',
             '/': '/'
-        }
+        },
+        search: {
+            maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+            paths: 'auto', // or 'auto'
+            // 支持本地化
+            placeholder: {
+                '/': '搜索'
+            },
+            // 支持本地化
+            noData: {
+                '/': '找不到结果'
+            },
+            // 搜索标题的最大程级, 1 - 6
+            depth: 5
+        },
+        plugins: [ //添加footer页脚
+            function(hook) {
+                var footer = [
+                    '<hr/>',
+                    '<footer>',
+                    '<span><a href="https://github.com/dolphintwo">DolphinTwo</a> &copy;2017.</span>',
+                    '</footer>'
+                ].join('')
+
+                hook.afterEach(function(html) {
+                    return html + footer
+                })
+            }
+        ]
+
     }
 </script>
-<script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+<script src="lib/docsify.min.js"></script>
+<script src="lib/plugins/search.js"></script>
+<script src="lib/plugins/emoji.js"></script>
+<script src="lib/plugins/external-script.js"></script>
+<script src="lib/plugins/zoom-image.js"></script>
 
 </html>

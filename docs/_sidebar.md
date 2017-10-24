@@ -1,3 +1,4 @@
+- [索引](README.md)
 - [page1](page1/index.md)
     - [index1](page1/doc.md)
     - [index2](page1/doc2.md)
