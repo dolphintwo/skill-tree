@@ -1,0 +1,30 @@
+{
+  "name": "skill-tree",
+  "version": "1.0.0",
+  "description": "base on docsify-cli",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "docsify-cli": "^4.1.11"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dolphintwo/skill-tree.git"
+  },
+  "keywords": [
+    "docsify",
+    "dolphintwo"
+  ],
+  "author": "dolphintwo",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/dolphintwo/skill-tree/issues"
+  },
+  "homepage": "https://github.com/dolphintwo/skill-tree#readme"
+}
