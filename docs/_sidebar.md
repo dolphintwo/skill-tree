@@ -1,2 +1,2 @@
-- [index](README.md)
-- [page1](page1/doc.md)
+- [page1](page1/index.md)
+    - [index1](page1/doc.md)

@@ -1,3 +1,3 @@
-# Page1
+# Index1
 
-this is a demo
+this is index1
