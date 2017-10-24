@@ -9,12 +9,10 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="lib/themes/vue.css">
 </head>
-<nav>
+<!-- <nav>
     <a href="#/">En</a>
     <a href="#/zh-cn">中文</a>
-
-
-</nav>
+</nav> -->
 
 <body>
     <div id="app"></div>
@@ -22,10 +20,12 @@
 <script>
     window.$docsify = {
         name: 'DolphinTwo\'s Docsify',
-        loadSidebar: true,
+        loadSidebar: true, //使用目录，配置文件为_sidebar.md
         formatUpdated: '{YYYY}-{MM}-{DD} {HH}:{mm}',
         subMaxLevel: 2,
-        repo: ''
+        repo: '',
+        loadNavbar: true, //使用导航栏，配置文件为_navbar.md
+        coverpage: true //使用嵌套
     }
 </script>
 <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
