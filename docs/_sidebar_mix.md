@@ -1,10 +1,7 @@
 - [索引](README.md)
 - [目录](_sidebar_mix.md)
 - [Java](P1-Java/README.md)
-    - [P1-01](P1-Java/001-.md)
 - [Python](P2-Python/README.md)
-    - [P2-01](P2-Python/001-.md)
 - [Linux](P3-Linux/README.md)
-    - [P3-01](P3-Linux/001-.md)
 - [Node.js](P4-Node.js/README.md)
-    - [P4-01](P4-Node.js/001-.md)
+
