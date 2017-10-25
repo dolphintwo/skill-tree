@@ -1,5 +1,3 @@
-# 技术文档分享
-
 > An awesome project for technical exchange. Base on nodejs & docsify。
 
 #### 相关链接
@@ -14,5 +12,6 @@
 8788|[个人oracle服务器](http://60.205.231.165:8788/)|docker，SID=XE，11.2.0.2.0
 8789|[oracle-http服务器](http://60.205.231.165:8789/)|
 8778|[oho小说阅读器](http://60.205.231.165:8778/)|oho小说 [源码github](https://github.com/ShanaMaid/oho-reader.git)
+ 80 |[Nginx代理](http://60.205.231.165/)|80:3000
 
 
