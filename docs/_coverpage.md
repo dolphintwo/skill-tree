@@ -11,4 +11,4 @@
 
 
 [GitHub](https://github.com/dolphintwo)
-[Get In！](page1/doc.md)
+[Get In！](README.md)
