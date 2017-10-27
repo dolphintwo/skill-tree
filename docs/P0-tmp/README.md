@@ -30,7 +30,7 @@ gulp default
 ```
 该工程使用zepto的精简库作为js库，页面文件为index.html
 
-## app.yaoqian.com
+## 功能实现 app.yaoqian.com
 
 - 协议
     - 借款协议
@@ -68,7 +68,7 @@ gulp server
 gulp default
 ```
 
-## control.yaoqian.com & manage.yaoqian.com
+## 后台管理系统 control.yaoqian.com & manage.yaoqian.com
 这两套系统的前端框架都是使用vue，用webpack打包在服务器中直接运行，ui利用基于vue2.0的组件库element，ele官网有一整套api组件库，在开发时直接调用组件。
 #### Build Setup
 
@@ -86,7 +86,7 @@ npm run build
 npm run build --report
 ```
 
-## www.yaoqian.com
+## 官网 www.yaoqian.com
 - 官网（四个页面）
     - 首页    -index.html
     - 帮助中心  -help.html
