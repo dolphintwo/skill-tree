@@ -1,10 +1,11 @@
 # 源代码对接
 
-## activity.yaoqian.com
+## App内嵌h5页面 activity.yaoqian.com
 - 借款协议
 - 借款流程
 - 大转盘
 - 邀请好友
+- 注册页面
     - src\2017\register
 
 #### 安装node依赖
