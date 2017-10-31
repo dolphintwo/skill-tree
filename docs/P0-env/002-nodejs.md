@@ -1,10 +1,8 @@
-# 安装nvm及nodejs
-
-## 1.Mac下安装nvm及node
+# 1.Linux/Mac下安装nvm及node
 GitHub：
 [creationix/nvm](https://github.com/creationix/nvm "creationix/nvm")
 
-### 安装脚本
+## 安装nvm
 
 To install or update nvm, you can use the install script using cURL:
 ```shell
@@ -20,13 +18,13 @@ export NVM_DIR="$HOME/.nvm"
 source ~/.bashrc
 ```
 
-### 确认安装
-```shell
+## 确认安装nvm
+```
 command -v nvm
 nvm
 ```
 
-### 安装使用node指定版本
+## 使用nvm安装指定版本node
 查看nvm使用帮助
 ```
 Example:

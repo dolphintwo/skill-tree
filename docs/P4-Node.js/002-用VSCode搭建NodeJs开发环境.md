@@ -1,3 +1,5 @@
+# 用VSCode搭建NodeJs开发环境
+
 ## 1.安装vs code
 
 官方下载地址：[下载地址](https://code.visualstudio.com/)
@@ -11,7 +13,7 @@ Mac用户可参照以下操作：
 1.在右侧面板选择“服务”收到选定的“文件夹”，位于“Finder.app“，该选项是为了从Finder中接收一个文件夹；
 2.在左侧面板选择”实用工具“，然后找到”运行Shell脚本“，把它拽到右侧面板里；
 3.在右侧”运行Shell脚本“的面板里，选择Shell”/bin/bash“，传递输入“作为自变量”，然后修改Shell脚本如下：
-```
+```shell
 for f in "$@"
 do
     open -a "Visual Studio Code" "$f"

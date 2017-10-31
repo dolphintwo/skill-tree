@@ -10,4 +10,6 @@
     - [P4-001 安装nvm及node](P4-Node.js/001-安装nvm及node.md)
     - [P4-002 用VSCode搭建NodeJs开发环境](P4-Node.js/002-用VSCode搭建NodeJs开发环境.md)
     - [P4-101 npm-check](P4-Node.js/101-npm-check.md)
-- [缓存](P0-tmp/README.md)
+- [环境](P0-env/README.md)
+    - [P0-001 shell](P0-env/001-shell.md)
+    - [P0-002 node](P0-env/002-nodejs.md)
