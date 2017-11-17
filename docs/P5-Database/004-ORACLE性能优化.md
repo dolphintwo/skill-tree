@@ -1,3 +1,4 @@
+# 性能调优
 ## 最大连接数
 ```sql
 SQL> select value from v$parameter where name ='processes'; --查看当前最大连接
