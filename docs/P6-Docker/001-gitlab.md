@@ -1,3 +1,4 @@
+# docker安装gitlab
 ## 安装
 ```bash
 docker pull registry.cn-hangzhou.aliyuncs.com/lab99/gitlab-ce-zh
@@ -5,23 +6,16 @@ docker pull registry.cn-hangzhou.aliyuncs.com/lab99/gitlab-ce-zh
 
 ## docker run启动
 ```bash
-docker run --detach \
-    --publish 30443:443 --publish 30080:80 --publish 30022:22 \
-    --name gitlab \
-    --restart always \
-    --volume /Users/dd/Documents/work/docker_data/gitlab/config:/etc/gitlab \
-    --volume /Users/dd/Documents/work/docker_data/gitlab/logs:/var/log/gitlab \
-    --volume /Users/dd/Documents/work/docker_data/gitlab/data:/var/opt/gitlab \
-    dolphintwo/gitlab-ce-zh:latest
+docker run --detach --publish 30443:443 --publish 30080:80 --publish 30022:22 --name gitlab --restart always --volume /Users/dd/Documents/work/docker_data/gitlab/config:/etc/gitlab --volume /Users/dd/Documents/work/docker_data/gitlab/logs:/var/log/gitlab --volume /Users/dd/Documents/work/docker_data/gitlab/data:/var/opt/gitlab dolphintwo/gitlab-ce-zh:latest
 ```
 
-## docker compose启动
+## docker compose启动<useless>
 建立一个`docker-compose.yml`，内容如下：
 ```yaml
 version: '2'
 services:
     web:
-      image: 'twang2218/gitlab-ce-zh:latest'
+      image: 'dolphintwo/gitlab-ce-zh:latest'
       restart: always
       hostname: 'gitlab.example.com'
       environment:
