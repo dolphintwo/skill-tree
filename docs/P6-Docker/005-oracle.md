@@ -7,7 +7,7 @@ docker pull sath89/oracle-xe-11g
 
 ## docker run启动
 ```bash
-docker run --detach --name oracle11g --publish 38080:8080 --publish 31521:1521  --restart always -e processes=10000 -e sessions=11050 -e transactions=12150 --volume /Users/dd/Documents/work/docker_data/oracle/data:/u01/app/oracle dolphintwo/oracle:11.2.0.2
+docker run --detach --name oracle11g --publish 38080:8080 --publish 1521:1521  -e processes=10000 -e sessions=11050 -e transactions=12150 --volume /Users/dd/Documents/work/docker_data/oracle/data:/u01/app/oracle dolphintwo/oracle:11.2.0.2
 ```
 
 ## docker compose启动<useless>

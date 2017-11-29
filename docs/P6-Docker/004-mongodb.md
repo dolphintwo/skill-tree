@@ -6,7 +6,7 @@ docker pull mongo
 
 ## docker run启动
 ```bash
-docker run --detach --restart always --publish 27017:27017 --name mongodb --volume  /Users/dd/Documents/work/docker_data/mongo/data:/data/db dolphintwo/mongo:latest
+docker run --detach --publish 27017:27017 --name mongodb --volume  /Users/dd/Documents/work/docker_data/mongo/data:/data/db dolphintwo/mongo:latest
 ```
 
 ## docker compose启动<useless>

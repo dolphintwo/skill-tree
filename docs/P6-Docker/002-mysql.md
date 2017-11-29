@@ -7,7 +7,7 @@ docker pull mysql
 
 ## docker run启动
 ```bash
-docker run --detach --volume /Users/dd/Documents/work/docker_data/mysql/data:/var/lib/mysql --volume /Users/dd/Documents/work/docker_data/mysql/config:/etc/mysql/conf.d -e MYSQL_ROOT_PASSWORD=888888 --restart always --publish 33306:3306 dolphintwo/mysql:latest
+docker run --detach --name mysql5.7 --volume /Users/dd/Documents/work/docker_data/mysql/data:/var/lib/mysql --volume /Users/dd/Documents/work/docker_data/mysql/config:/etc/mysql/conf.d -e MYSQL_ROOT_PASSWORD=888888 --publish 3306:3306 dolphintwo/mysql:5.7.20
 ```
 
 ## docker compose启动<useless>
